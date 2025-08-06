@@ -46,3 +46,12 @@
     left: -10px;
     top: -15px;
 }
+
+
+.myList:nth-child(2n) {
+  border-left: 4px solid blue;
+}
+
+.myList:nth-child(2n + 1) {
+    border-left: 4px solid red;
+}
