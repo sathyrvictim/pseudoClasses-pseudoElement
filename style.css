@@ -1,0 +1,48 @@
+
+/* 1. Pseudo-classes (State: :hover) */
+.btn {
+    background-color: #37a03a;
+    color: white;
+    padding:10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #608528;
+    color: black;
+    transform: scale(1.1);
+}
+
+/* 2. Pseudo-classes (Position: :nth-child) */
+.list li:nth-child(odd){
+    background-color: #c7dcee;
+}
+
+.list li:nth-child(even){
+    background-color: #6c8fad;
+}
+
+/* 3. Pseudo-elements (::before & ::after) */
+
+.quote {
+    position: relative;
+    padding: 10px 20px;
+    background: #fff3cd;
+}
+
+.quote::before{
+    content: "“";;
+    font-size: 2em;
+    color: #d39e00;
+    left: -10px;
+    top: -5px;
+}
+
+.quote::after {
+    content: "“";
+    font-size: 2em;
+    color: #d39e00;
+    left: -10px;
+    top: -15px;
+}
