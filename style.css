@@ -55,3 +55,11 @@
 .myList:nth-child(2n + 1) {
     border-left: 4px solid red;
 }
+
+.myList:nth-child(even){
+    color: #ffffff;
+}
+
+.myList:nth-child(odd){
+    color: #000000;
+}
